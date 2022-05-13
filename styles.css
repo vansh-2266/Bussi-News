@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;500;600&family=Roboto:wght@500&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body{
+    
+    background: #222222;
+    color: #fff;
+    font-family: 'Radio Canada', sans-serif;
+    height: 1000px;
+    width: 500px;
+
+}
+
+
+.single-news{
+
+    text-align: center;
+    width: 60%;
+    margin: 1%;
+    padding: 2%;
+    background: #666;
+    border-radius: 4px;
+}
+
+.single-news:hover{
+    /* background: rgb(253, 85, 113); */
+    background: rgb(118, 118, 255);
+}
+
+.news-link{
+    text-decoration: none;
+    color: #222222;
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+
+.news-link:hover{
+    color: rgb(65, 65, 231);
+}
+
+ .news-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+
+ }
+
+.news-title{
+    padding: 2%;
+    margin:  10px 0px;
+}
+
+.news-date{
+    margin: 10px 0px;
+    font-size: 0.80rem;
+}
+
+.content {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 4%;
+}
+
+.content .btn{
+
+    background: #666;
+    color: #fff;
+    padding: px;
+    width: 14rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+}
+
+.content .btn:hover{
+    background: green;
+    cursor: pointer;
+}

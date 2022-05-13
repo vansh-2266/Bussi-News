@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3 ,
+    "name" : "Bussi-News",
+    "version" : "100.0.4896.88",
+    "description": "You can use this extension for daily business news of the Indian market & all the news you will get will be recent and updated || Best New Extension - Bussi-News.",
+
+    "icons":{
+        "128":"./icons/128.png",
+        "48" : "./icons/48.png",
+        "32": "./icons/32.png",
+        "16": "./icons/16.png"
+    },
+
+    "action":{
+        "default_icon":"./icons/16.png",
+        "default_popup":"index.html",
+        "default_title":"Bussi-News"
+    },
+
+    "permissions":[
+        "activeTab"
+    ]
+
+}
